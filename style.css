@@ -1118,22 +1118,64 @@ footer{
     }
 
     #perguntas{
-        margin-top: 30px;
-        height: 150vh;
+        height: 100vh;
     }
     #conheca-ong{
-        height: 150vh;
+        height: 100vh;
     }
     #search{
-        height: 150vh;
+        height: 100vh;
     }
     #marcas{
-        height: 150vh;
+        height: 100vh;
     }
     #faleconosco{
-        height: 150vh;
+        height: 100vh;
     }
     #rodape{
-        height: 150vh;
+        height: 100vh;
     }
 }
+
+@media (min-width: 1367px) and (max-width: 1440px) {
+    .sabermais{
+        width: 30%;
+    }
+
+    .wpp{
+        left: 90%;
+    }
+
+    .partners{
+        & img{
+            width: 200px;
+        }
+    }
+
+     .saibamais{
+        transform: translateY(50rem);
+        width: 200px;
+     }
+
+}
+
+@media(min-width: 1441px) and (max-width: 1600px) {
+    .sabermais{
+        width: 30%;
+    }
+    .saibamais{
+        transform: translateY(50rem);
+        width: 220px;
+     }
+}
+
+@media(min-width: 1600px) and (max-width: 1768px) {
+    .sabermais{
+        width: 30%;
+    }
+    .saibamais{
+        transform: translateY(55rem);
+        width: 250px;
+     }
+}
+
