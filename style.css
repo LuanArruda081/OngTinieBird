@@ -321,11 +321,11 @@ option{
 .sabermais{
     position: absolute;
     left: 64%;
-    width: 100%;
+    width: 80%;
 }
 
 .saibamais{
-    transform: translateY(60rem);
+    transform: translateY(59rem);
     width: 300px;
     padding: 20px 0px;
     font-size: 25px;
@@ -873,7 +873,7 @@ footer{
         }
 
         .sabermais{
-            left: 10%;
+            left: 0%;
             transform: translateY(-63rem);
         }
 
