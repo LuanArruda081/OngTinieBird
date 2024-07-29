@@ -350,6 +350,7 @@ option{
     background-position: center;
     height: 100vh;
     background-repeat: no-repeat;
+    
 }
 
 .list-ask{
@@ -1099,6 +1100,7 @@ footer{
     #depoimentos{
         display: flex;
         flex-direction: column;
+        height: 150vh;
     }
 
     .sabermais{
@@ -1113,5 +1115,25 @@ footer{
 
     .margin-ask{
         margin-top: 300px;
+    }
+
+    #perguntas{
+        margin-top: 30px;
+        height: 150vh;
+    }
+    #conheca-ong{
+        height: 150vh;
+    }
+    #search{
+        height: 150vh;
+    }
+    #marcas{
+        height: 150vh;
+    }
+    #faleconosco{
+        height: 150vh;
+    }
+    #rodape{
+        height: 150vh;
     }
 }
