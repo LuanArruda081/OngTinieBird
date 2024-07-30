@@ -1,8 +1,6 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +9,6 @@
     text-decoration: none;
     font-family: "Roboto", sans-serif;
 }
-
 header{
     position: fixed;
     display: flex;
@@ -22,7 +19,6 @@ header{
     padding: 10px;
     overflow-x: hidden;
     z-index: 9999;
-
     & #logotipo{
        display: flex;
        align-items: center;
@@ -32,20 +28,16 @@ header{
     & .logo-cat{
         height: 70px;
     }
-
     & .logo-name{
         
         height: 60px;
     }
-
-
     & nav{
         & ul{
         
             display: flex;
             align-items: center;
             gap: 5rem;
-
             & .button-nav{
                 padding: 10px 35px;
                 background-color: #1268AE;
@@ -60,15 +52,12 @@ header{
            
         }
     }
-
 }
-
 .sobre{
     display: flex;
     align-items: center;
     font-size: 22px;
     gap: 5px;
-
    & a {
     color: #FF8B87;
     transition: 0.3s ease-in-out;
@@ -83,16 +72,12 @@ a{
     text-decoration: none;
     
 }
-
 .navbar{
     transition: border-bottom 0.3s ease-in-out;
 }
-
 .navbar:hover{
     border-bottom: 1px solid black;
 }
-
-
 & .button-nav:hover{
     background-color: #167acc;
 }
@@ -104,13 +89,11 @@ a{
     justify-content: center;
     background-repeat: no-repeat;
 }
-
 .main-text{
     display: flex;
     flex-direction: column;
     gap: 2rem;
     
-
     & .button-main{
         margin: 0 auto;
         padding: 20px 0;
@@ -124,11 +107,9 @@ a{
         transition: 0.3s ease-in-out;
     }
 }
-
 .button-main:hover{
     background-color: #167acc;
 }
-
 .wpp{
     position: absolute;
     top: 60%;
@@ -136,7 +117,6 @@ a{
     border-radius: 50%;
     border: 0;
 }
-
 #apoiar{
     height: 100vh;
     display: flex;
@@ -146,7 +126,6 @@ a{
     gap: 7rem;
     margin-top: 300px;
 }
-
 #apoio-button{
     margin: 0 auto;
     padding: 30px 0px;
@@ -160,19 +139,15 @@ a{
     transition: 0.3s ease-in-out;
     text-align: center;
 }
-
 #apoio-button:hover{
     background-color: #167acc;
 }
-
 .cat-first{
    width: 90%;
 }
-
 #search{
     height: 100vh;
     
-
 }
 #search-content{
     display: flex;
@@ -183,18 +158,15 @@ a{
     background-color:#FF7B77;
     width: 100%;
     border-radius: 0 0 10% 10%;
-
     & .filtros{
         margin-top: 30px;
     }
 }
-
 .filtros{
     display: flex;
     gap: 2rem;
     margin-bottom: 50px;
 }
-
 select{
     border: 1px solid white;
     padding: 20px 30px;
@@ -205,17 +177,14 @@ select{
     font-size: 20px;
     
 }
-
 option{
     color: black;
 }
-
 .top-search{
     position: absolute;
     left: 150px;
     top: 253%;
 }
-
 .buscar{
     padding: 20px 0px;
     font-size: 25px;
@@ -228,21 +197,17 @@ option{
     transition: 0.3s ease-in-out;
     text-align: center;
 }
-
 .buscar:hover{
     background-color: #167acc;
 }
-
 .cats{
     margin-top: 50px;
     display: flex;
 }
-
 .cats-doacao{
     width:"500px";
     height:"50px"
 }
-
 .cat-list{
     color: #fff;
     line-height: 25px;
@@ -254,11 +219,9 @@ option{
         font-size: 20px;
     }
 }
-
 .gatinhos{
     width: 350px;
 }
-
 .gender-img{
     position: absolute;
     left: 6%;
@@ -278,12 +241,9 @@ option{
     transition: 0.3s ease-in-out;
     
 }
-
 .seeall:hover{
     background-color: #FF8B87;
 }
-
-
 #conheca-ong{
     position: relative;
     display: flex;
@@ -293,11 +253,9 @@ option{
     margin-top: 100px;
     height: 100vh;
 }
-
 .conhecer-cat{
     width: 80%;
 }
-
 .first-ong{
     text-align: center;
     color: #1A1442;
@@ -305,7 +263,6 @@ option{
     border-top: 2px solid #1A1442;
     font-size: 20px;
 }
-
 .cat-text{
     display: flex;
     justify-content: center;
@@ -313,19 +270,17 @@ option{
     margin: 0 auto;
     text-align: center;
 }
-
 .text-ong{
     margin: 50px 0 20px 0;
 }
-
 .sabermais{
     position: absolute;
-    left: 64%;
-    width: 80%;
+    left: 66%;
+    width: 30%;
+    transform: translateY(8rem);
 }
-
 .saibamais{
-    transform: translateY(59rem);
+    
     width: 300px;
     padding: 20px 0px;
     font-size: 25px;
@@ -338,13 +293,9 @@ option{
     text-align: center;
     
 }
-
-
-
 .saibamais:hover{
     background-color: #167acc;
 }
-
 #perguntas{
     background-image: url(./img/asks.png);
     background-position: center;
@@ -352,7 +303,6 @@ option{
     background-repeat: no-repeat;
     
 }
-
 .list-ask{
     display: flex;
     justify-content: center;
@@ -381,7 +331,6 @@ option{
     cursor: pointer;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
-
 .faq-header{
     width: 100%;
     border: none;
@@ -392,14 +341,12 @@ option{
     font-size: 16px;
     cursor: pointer;
 }
-
 .faq-header span{
     max-width: 100%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
 .faq-body{
     color: #444;
     font-size: 14px;
@@ -408,30 +355,23 @@ option{
     overflow: hidden;
     transition: opacity .3s;
 }
-
 .faq-body.active{
     height: 100%;
     opacity: 1;
     padding: 5px 0px;
-
 }
-
-
 .arrow{
     transition: transform .2s linear;
     background-color: #FFE7E6;
     padding: 5px;
     border-radius: 5px;
 }
-
-
 .ask:has(.active) .arrow{
     transform: rotate(180deg);
 }
 .margin-ask{
     margin-top: 50%;
 }
-
 #depoimentos{
     background-image: url(./img/depoiments.png);
     height: 120vh;
@@ -443,22 +383,18 @@ option{
     gap: 4rem
     
 }
-
 .testemunhos{
     width: 450px;
 }
-
 .dep-first{
     display: flex;
     flex-direction: column;
     gap: 3rem;
     width: 450px;
-
     & p {
         line-height: 25px;
     }
 }
-
 #carrossel{
     display: flex;
     align-items: center;
@@ -467,7 +403,6 @@ option{
         width: 44px;
     }
 }
-
 .c-seta{
     background-color: transparent;
     width: 50px;
@@ -475,18 +410,15 @@ option{
     border-radius: 50%;
     border: 0;
 }
-
 #ana{
     display: none;
 }
 #seta-r{
     display: none;
 }
-
 .tdcr{
     display: none;
 }
-
 #marcas{
     background-image: url(./img/marca.png);
     background-position: center;
@@ -497,7 +429,6 @@ option{
     justify-content: center;
     margin-bottom: 10%;
 }
-
 #faleconosco{
     margin-top: 10%;
     background-image: url(./img/faleconosco.png);
@@ -515,7 +446,6 @@ option{
         gap: 1rem;
        
         
-
         
         textarea{
             height: 100px;
@@ -532,7 +462,6 @@ option{
             textarea::placeholder {               
                 color: #fff; 
             }
-
             input[type="number"]::-webkit-outer-spin-button,
             input[type="number"]::-webkit-inner-spin-button {
                 -webkit-appearance: none;
@@ -543,8 +472,6 @@ option{
             input[type="number"] {
                 -moz-appearance: textfield;
             }
-
-
             & input[type = submit]{
                 cursor: pointer;
                 background-color: #014C87;
@@ -555,7 +482,6 @@ option{
                 transition: 0.3s ease-in-out;
                 font-size: 20px;
             }
-
             & input[type = submit]:hover{
                 background-color: #167acc;
                 box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
@@ -570,12 +496,10 @@ option{
             outline: 0;
             color: #fff;
             
-
         }
         & input::placeholder{
             color: #fff;
         }
-
         & button{
             margin-top: 25px;
             width: 300px;
@@ -589,13 +513,11 @@ option{
             transition: 0.3s ease-in-out;
             text-align: center;
     }
-
     & button:hover{
         background-color: #1f6ee4;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
     }
 }
-
 .formulario{
     display: flex;
     justify-content: space-around;
@@ -603,15 +525,10 @@ option{
     align-items: center;
     
 }
-
 .cat-fc{
     width: 600px;
 }
-
-
-
 }
-
 footer{
     display: flex;
     justify-content: center;
@@ -623,7 +540,6 @@ footer{
         margin: 0 auto;
     }
 }
-
 .contatos{
     display: flex;
     justify-content: center;
@@ -641,7 +557,6 @@ footer{
     width: 250px;
     text-align: center;
     color: #fff;
-
     & span {
         margin-top: 15px;
         & p{
@@ -660,7 +575,6 @@ footer{
         width: 250px;
      }
 }
-
 .whats{
     display: flex;
     padding-top: 10px;
@@ -673,11 +587,9 @@ footer{
     background-color: #1168AD;
     border-radius: 10px;
 }
-
 .duvd{
     width: 300px;
 }
-
 .redes{
     display: flex;
     justify-content: center;
@@ -687,13 +599,11 @@ footer{
     width: 250px;
     text-align: center;
     color: #fff;
-
     & ul{
         margin-top: 10px;
         display: flex;
     }
 }
-
 .newslatter{
     display: flex;
     justify-content: center;
@@ -705,8 +615,6 @@ footer{
     width: 50%;
     margin: 0 auto;
     padding-top: 50px;
-
-
     & input{
         width: 700px;
         padding: 20px;
@@ -717,12 +625,10 @@ footer{
         margin: auto;
         color: #fff;
     }
-
     & input::placeholder{
         color: #fff;
     }
 }
-
 .topo{
     position: absolute;
     left: 80%;
@@ -731,17 +637,7 @@ footer{
 .pf{
     display: none;
 }
-
-
-
-
-
-
-
-
  /* MEDIA QUERRY */
-
-
     @media (min-width:360px) and (max-width: 768px) {
         nav {
             display: none;
@@ -751,7 +647,6 @@ footer{
             width: 100%;
             justify-content: center;
         }
-
         #first-conteiner{
             background-color: #E7807D;
             display: flex;
@@ -765,7 +660,6 @@ footer{
             & .line {
                 display: none;
             }
-
             & .cat-main{
                 display: none;
             }
@@ -801,13 +695,11 @@ footer{
                 width: 100%;
             }
         }
-
         #apoio-button{
             width: 60%;
             padding: 16px;
             font-size: 18px;
         }
-
         #search-content{
             & .cats-doacao{
                 width: 100%;
@@ -817,36 +709,29 @@ footer{
             display: flex;
             flex-direction: column;
             align-items: center;
-
             & select{
                 width: 80%;
             }
         }
-
         .cats{
             width: 100%;
             display: flex;
             flex-direction: column;
-
             & .cat-list{
                 width: 100%;
                 margin: 0 auto;
                 font-size: 15px;
                 
             }
-
             & .gatinhos{
                 width: 300px;
                 border-radius: 10px ;
             }
-
            
         }
-
         #search{
             margin-bottom: 120rem;
         }
-
         #search-content{
             border-radius: 0 0 20px 20px;
         }
@@ -855,7 +740,6 @@ footer{
             font-size: 20px;
             padding: 20px;
         }
-
         .text-ong{
             width: 90%;
         }
@@ -872,25 +756,21 @@ footer{
             display: flex;
             width: 90%;
         }
-
         .sabermais{
             left: 0%;
-            transform: translateY(-63rem);
+            transform: translateY(-54rem);
+            width: 200px;
         }
-
         .saibamais{
             font-size: 17px;
         }
-
         .sabermais{
             position: relative;
         }
-
         #conheca-ong{
             margin-bottom: 12rem;
             flex-direction: column;
         }
-
         #perguntas{
             
             background-image: url(./img/ask-r.png);
@@ -900,7 +780,6 @@ footer{
             height: 150vh;
             display: flex;
         }
-
         .list-ask{
             display: flex;
             justify-content: center;
@@ -909,9 +788,7 @@ footer{
             align-items: center;
             width: 100%;
             margin:  auto;
-
     }
-
     .ask{
         width: 85%;
         margin: auto;
@@ -923,11 +800,9 @@ footer{
         color: #1A1442;
         
     }
-
     .margin-ask{
         margin-top: 100px;
     }
-
     #depoimentos{
         background-image: url(./img/dep-r.png);
         background-position: center;
@@ -935,7 +810,6 @@ footer{
         display: flex;
         flex-direction: column;
         height: 120vh;
-
          & .dep-first{
             & p{
                 width: 300px;
@@ -955,37 +829,29 @@ footer{
            display: flex;
            justify-content: center;
            align-items: center;
-
           
          }
-
        #romulo{
             display: none;
         }
         .testemunhos{
             width: 320px;
             margin:0 auto;
-
             
         }
-
         .laura{
             display: flex;
             align-items: center;
             justify-content: center;
             align-items: center;
         }
-
-
         .arrows{
             width: 30px;
         }
-
         #marcas{
             padding: 20px;
             height: 120vh
         }
-
         .partners{
             display: flex;
             flex-direction: column;
@@ -994,21 +860,18 @@ footer{
                 width: 180px;
             }
         }
-
         #faleconosco{
             background-image: url(./img/faleconosco-r.png);
             background-position: center;
             margin-bottom: 60px;
             height: 150vh;
         }
-
         .formulario{
             display: flex;
             align-items: center;
             justify-content: center;
             
         }
-
         .formulario{
             display: flex;
             flex-direction: column;
@@ -1017,14 +880,12 @@ footer{
                 display: none;
             }
         }
-
         form{
             & input{
                 width: 100px;
                 margin-right: 15% ;
             }
         }
-
         footer{
             border-radius: 20px;
             display: flex;
@@ -1034,46 +895,36 @@ footer{
         .duvd{
             width: 200px;
         }
-
         .contatos{
            display: flex;
            flex-direction: column;
            align-items: center;
            padding-top: 5px;
         }
-
         .whats{
             padding-bottom: 20px;
         }
-
       .newslatter{
         display: flex;
         flex-direction: column;
         align-items: center;
       }
-
         .newslatter input{
             width: 100%;
            margin: auto;
-
         }
-
         .topo{
          display: none;
             
         }
-
         .top-search{
             display: none;
         }
-
         .dep-first{
             width: 100%;
         }
 }
-
 @media (min-width: 769px) and (max-width: 1366px) {
-
     .gatinhos{
         width: 300px;
     }
@@ -1082,18 +933,15 @@ footer{
             width: 200px;
         }
     }
-
     .wpp{
         top: 40%;
         left: 90%;
     }
-
     .apoio{
         & img{
             width: 100%;
         }
     }
-
     .topo{
         left: 75%;
     }
@@ -1102,7 +950,6 @@ footer{
         flex-direction: column;
         height: 150vh;
     }
-
     .sabermais{
         width: 30%;
     }
@@ -1112,27 +959,33 @@ footer{
         transform: translateY(45rem);
         width: 200px;
     }
-
     .margin-ask{
         margin-top: 300px;
     }
 
     #perguntas{
+        margin-top: 30px;
+        height: 150vh;
         height: 100vh;
     }
     #conheca-ong{
+        height: 150vh;
         height: 100vh;
     }
     #search{
+        height: 150vh;
         height: 100vh;
     }
     #marcas{
+        height: 150vh;
         height: 100vh;
     }
     #faleconosco{
+        height: 150vh;
         height: 100vh;
     }
     #rodape{
+        height: 150vh;
         height: 100vh;
     }
 }
@@ -1151,13 +1004,14 @@ footer{
             width: 200px;
         }
     }
+}
 
      .saibamais{
         transform: translateY(50rem);
         width: 200px;
      }
 
-}
+
 
 @media(min-width: 1441px) and (max-width: 1600px) {
     .sabermais{
@@ -1178,4 +1032,5 @@ footer{
         width: 250px;
      }
 }
+
 
